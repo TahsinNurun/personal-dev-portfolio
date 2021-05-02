@@ -4,16 +4,18 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <main style={{ height: '600px' }} className="row d-flex align-item-center home-container">
-                <div className="col-md-6 col-sm-12 ">
-                    <img src={proPic} alt="" className="img-fluid"/>
-                </div>
-            <div className="d-flex align-item-center">
-                <div className="col-md-4 offset-md-1 col-sm-12 ">
-                    <h5>Hi,I am</h5>
-                    <h1 style={{ color: 'black' }}>Tahsin</h1>
-                    <h5>Designer, <br />Developer, <br /> Dreamer</h5>
-                    <button className="btn btn-warning" style={{ backgroundColor: '#F87431' }}><a href="/contactMe">Contact Me</a></button>
+        <main style={{ height: '10rem' }} className="">
+            <div className="container home-container">
+                <div className="row d-flex align-item-center">
+                    <div className="col-md-7 col-sm-12 ">
+                        <img src={proPic} alt="" className="img-fluid my-5 mx-1"/>
+                    </div>
+                    <div className="col-md-3 offset-md-2 col-sm-12 my-5 mx-1">
+                        <h5>Hi,I am</h5>
+                        <h1 style={{ color: 'black' }}>Tahsin</h1>
+                        <h5>Designer, <br />Developer, <br /> Dreamer</h5>
+
+                    </div>
                 </div>
             </div>
         </main>
