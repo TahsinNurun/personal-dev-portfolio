@@ -3,6 +3,12 @@ import logo from '../../Images/logo.png';
 import '../../App.css'
 
 const Navbar = () => {
+    const navStyle={
+        backgroundColor: 'silver',
+        color:'white',
+        borderRadius:"5px",
+        margin: '3px'
+    }
     return (
         <div className="container " style={{ height: '100px' }}>
         <div className="row">
@@ -12,19 +18,19 @@ const Navbar = () => {
             <div className="col-md-10 col-sm-12 ">
                 <ul className="nav justify-content-end m-2">                    
                     <li className="nav-item">
-                        <a className="nav-link ms-5" href="/">HOME</a>
+                        <a className="nav-link ms-7" href="/" style={navStyle}>HOME</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ms-5" href="/projects">PROJECTS</a>
+                        <a className="nav-link ms-7" href="/projects" style={navStyle}>PROJECTS</a>
+                    </li>
+                    <li className="nav-item ms-7">
+                        <a className="nav-link" href="/blogs" style={navStyle}>BLOGS</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ms-5" href="/blogs">BLOGS</a>
+                        <a className="nav-link ms-7" href="/resume" style={navStyle}>RESUME</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ms-5" href="/resume">RESUME</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link ms-5" href="/contactMe">CONTACT ME</a>
+                        <a className="nav-link ms-7" href="/contactMe" style={navStyle}>CONTACT ME</a>
                     </li>                   
                 </ul>
             </div>
