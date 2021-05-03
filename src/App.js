@@ -13,6 +13,7 @@ import Projects from './Components/Projects/Projects';
 import Blogs from './Components/Blogs/Blogs';
 import Resume from './Components/Resume/Resume';
 import ContactMe from './Components/ContactMe/ContactMe';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
