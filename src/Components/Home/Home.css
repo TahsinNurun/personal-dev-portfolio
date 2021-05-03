@@ -1,12 +1,13 @@
 .home-container {
-    height: 30rem;
+    height: 40rem;
+    width: 100%;
     position:relative;
     background-image: url('../../Images/home-bg.png');
     background-size: cover;
     z-index: -50;   
 }
 .home-container::after{
-    height:30rem;
+    height:40rem;
     content: '';
     position: absolute; 
     top: 0;

@@ -28,7 +28,7 @@ const Projects = () => {
     }]
 
     return (
-        <section className="container">
+        <section className="container" style={{backgroundColor: '#ff8c66'}}>
             <div className="text-center mt-2">                
                 <h3>Visit Some Of My Recent Works</h3>
             </div>

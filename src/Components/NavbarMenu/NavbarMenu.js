@@ -8,7 +8,7 @@ const NavbarMenu = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
                 <div className="container">
                     <Navbar.Brand href="/">
                         <img
@@ -22,9 +22,10 @@ const NavbarMenu = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="/">HOME</Nav.Link>
+                           
                         </Nav>
                         <Nav>
+                            <Nav.Link href="/">HOME</Nav.Link>
                             <Nav.Link href="/projects">PROJECTS</Nav.Link>
                             <Nav.Link href="/blogs">BLOGS</Nav.Link>
                             <Nav.Link href="/resume">RESUME</Nav.Link>
