@@ -13,8 +13,7 @@ const Home = () => {
                     <div className="col-md-3 offset-md-2 col-sm-12 my-5 mx-1">
                         <h5>Hi,I am</h5>
                         <h1 style={{ color: 'black' }}>Tahsin</h1>
-                        <h5>Designer, <br />Developer, <br /> Dreamer</h5>
-
+                        <h5>Designer, <br />Developer, <br /> Dreamer</h5>g
                     </div>
                 </div>
             </div>
