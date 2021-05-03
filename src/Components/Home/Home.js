@@ -8,7 +8,7 @@ const Home = () => {
             <div className="container home-container pt-5">
                 <div className="row d-flex align-item-center">
                     <div className="col-md-7 col-sm-12 ">
-                        <img src={proPic} alt="" className="image-fluid my-5 mx-1"/>
+                        <img src={proPic} alt="" className="img-fluid  mx-1"/>
                     </div>
                     <div className="col-md-3 offset-md-2 col-sm-12 my-5 mx-1">
                         <h5>Hi,I am</h5>
