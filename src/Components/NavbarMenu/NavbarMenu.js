@@ -25,11 +25,11 @@ const NavbarMenu = () => {
                            
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/">HOME</Nav.Link>
-                            <Nav.Link href="/projects">PROJECTS</Nav.Link>
-                            <Nav.Link href="/blogs">BLOGS</Nav.Link>
-                            <Nav.Link href="/resume">RESUME</Nav.Link>
-                            <Nav.Link href="/contactMe">CONTACT ME</Nav.Link>
+                            <Nav.Link href="/" style={{fontFamily:'raleway',fontWeight: 'bold'}}>HOME</Nav.Link>
+                            <Nav.Link href="/projects" style={{fontFamily:'raleway',fontWeight: 'bold'}}>PROJECTS</Nav.Link>
+                            <Nav.Link href="/blogs" style={{fontFamily:'raleway',fontWeight: 'bold'}}>BLOGS</Nav.Link>
+                            <Nav.Link href="/resume" style={{fontFamily:'raleway',fontWeight: 'bold'}}>RESUME</Nav.Link>
+                            <Nav.Link href="/contactMe" style={{fontFamily:'raleway',fontWeight: 'bold'}}>CONTACT ME</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

@@ -1,19 +1,22 @@
 .home-container {
-    height: 40rem;
+    height: 60rem;
     width: 100%;
     position:relative;
-    background-image: url('../../Images/home-bg.png');
+    background-image: url('../../Images/paper-bd.png');
     background-size: cover;
-    z-index: -50;   
+    z-index: -.5;   
 }
 .home-container::after{
-    height:40rem;
+    height:60rem;
     content: '';
     position: absolute; 
     top: 0;
     width: 25%;
     right: 0;
-    background-color: #F87431;
+    background-color: #f17a3e;
     opacity: 0.96;
-    z-index: -50;
+    z-index: -2;
+}
+body {
+    background-color: gray;
 }

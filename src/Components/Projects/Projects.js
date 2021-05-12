@@ -3,6 +3,8 @@ import ProjectDetail from '../ProjectDetail/ProjectDetail';
 import image1 from '../../Images/01.png';
 import image2 from '../../Images/02.png';
 import image3 from '../../Images/03.png';
+import './Projects.css';
+
 
 
 const Projects = () => {
