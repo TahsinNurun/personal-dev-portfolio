@@ -83,7 +83,7 @@ const Resume = () => {
                     <h4 style={headingStyle}>Education</h4>
                     <h6>Graduated in Bachelor of Architecture degree(5 years) from Chittagong University of Engineering and Technology in 2017</h6>
                 </div>
-                <a href="https://drive.google.com/uc?export=download&id=1G4dyrPL-s6J98WbB2Gg6uJl12kW06nn8" role="button" target="_blank" className="btn btn-warning" style={{ backgroundColor: '#F87431' }}>Download Resume</a>
+                <a href="https://drive.google.com/uc?export=download&id=1EYfQ0h_RctiJI_oVQMGLrqvjBE0Gm3IU" role="button" target="_blank" className="btn btn-warning" style={{ backgroundColor: '#F87431' }}>Download Resume</a>
                 <p  className="text-center mt-5">copyright @ Tahsin Nurun. All rights reserved.</p>
             </section>
         </div>

@@ -1,22 +1,9 @@
 .home-container {
-    height: 60rem;
+    height: 90vh;
     width: 100%;
     position:relative;
-    background-image: url('../../Images/paper-bd.png');
+    background-Color:#db8458;
     background-size: cover;
     z-index: -.5;   
 }
-.home-container::after{
-    height:60rem;
-    content: '';
-    position: absolute; 
-    top: 0;
-    width: 25%;
-    right: 0;
-    background-color: #f17a3e;
-    opacity: 0.96;
-    z-index: -2;
-}
-body {
-    background-color: gray;
-}
+

@@ -25,7 +25,7 @@ const Blogs = () => {
             <div className="text-center mt-2">                
                 <h3>My Blogs</h3>
             </div>
-            <div className="justify-content-center">
+            <div className="justify-content-center mt-5">
                 <div className="w-90 row mt-3 pt-3">
                     {
                         allBlogs.map(blog => <BlogDetail blog={blog} key={blog.id}></BlogDetail>)

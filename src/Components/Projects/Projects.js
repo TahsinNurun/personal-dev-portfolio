@@ -30,11 +30,11 @@ const Projects = () => {
     }]
 
     return (
-        <section className="container" style={{backgroundColor: '#ff8c66'}}>
+        <section className="container" >
             <div className="text-center mt-2">                
                 <h3>Visit Some Of My Recent Works</h3>
             </div>
-            <div className="justify-content-center">
+            <div className="justify-content-center mt-5">
                 <div className="w-90 row mt-3 pt-3">
                     {
                         allProjects.map(project => <ProjectDetail project={project} key={project.id}></ProjectDetail>)
