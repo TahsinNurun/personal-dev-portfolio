@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProjectDetail = ({ project }) => {
     return (
-        <div className="card mb-3 container w-25 mt-3 shadow-lg" style={{backgroundColor: 'silver',height:"30rem",width: '21rem'}}>
+        <div className="card mb-3 container w-25 mt-3 shadow-lg" style={{height:"30rem",width: '21rem'}}>
             <img className="card-img-top mx-auto  mt-3 p-1" style={{borderRadius:'5px'}} src={project.image} alt="Card image cap"
             />
             <div className="card-body container">

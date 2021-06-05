@@ -10,7 +10,7 @@ const Resume = () => {
         fontWeight: 'bold'
     }
     return (
-        <div style={{ backgroundColor: '#F2F3F4 ' }} className="p-5" >
+        <div  className="p-5" >
             <section className="container p-5" style={{ backgroundColor: '#F2F3F4 ' }}>
                 <div className="d-flex justify-content-center text-secondary">
                     <div className="container">
