@@ -31,10 +31,10 @@ const Projects = () => {
         site:'https://604b28efdeaabc89d188b37e--agitated-joliot-227476.netlify.app/'
     },{
         id:15,
-        title: 'Tasete-of-Bangladesh',
+        title: 'Taste-of-Bangladesh',
         image: image4,
         code:'https://github.com/pHeroTeam/final-scic-assignment',
-        site:'https://604b28efdeaabc89d188b37e--agitated-joliot-227476.netlify.app/'
+        site:'https://taste-of-bangladesh-01.web.app/'
     },{
         id:15,
         title: 'Creative-Cafe',
