@@ -3,6 +3,8 @@ import ProjectDetail from '../ProjectDetail/ProjectDetail';
 import image1 from '../../Images/01.png';
 import image2 from '../../Images/02.png';
 import image3 from '../../Images/03.png';
+import image4 from '../../Images/04.png';
+import image5 from '../../Images/05.png';
 import './Projects.css';
 
 
@@ -27,6 +29,18 @@ const Projects = () => {
         image: image3,
         code:'https://github.com/TahsinNurun/Game-Obsession',
         site:'https://604b28efdeaabc89d188b37e--agitated-joliot-227476.netlify.app/'
+    },{
+        id:15,
+        title: 'Tasete-of-Bangladesh',
+        image: image4,
+        code:'https://github.com/pHeroTeam/final-scic-assignment',
+        site:'https://604b28efdeaabc89d188b37e--agitated-joliot-227476.netlify.app/'
+    },{
+        id:15,
+        title: 'Creative-Cafe',
+        image: image5,
+        code:'https://github.com/TahsinNurun/creative-cafe-202',
+        site:'https://drive.google.com/file/d/1j5KzocqHMUsFsORTKY7RhuhRmSAE-aDS/view'
     }]
 
     return (
